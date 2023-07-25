@@ -1,3 +1,38 @@
-p{
-    font-family: $fontfamily_slogan;
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+    h1{
+        color: $color-titre;
+        font-family: $fontfamily_titre;
+        letter-spacing: 16px;
+        font-size: $size-titre;
+        text-shadow: grey 3px 3px 4px;
+    }
+    p{
+        font-size: 1.5em;
+        font-family: $fontfamily_slogan;
+        color: $color-secondaire;
+        letter-spacing: 7px;
+        margin-top: -10px;
+    }
+    nav{
+        padding-top: 15px;
+        ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            list-style: None;
+            li{
+                margin: 0px 60px;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: $color-ternaire;
+            font-size: 1.2em;
+            gap: 150px;
+        }
+    }
 }

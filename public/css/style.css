@@ -1,5 +1,40 @@
-p {
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 15px;
+}
+header h1 {
+  color: #A777EB;
+  font-family: "Gruppo", sans-serif;
+  letter-spacing: 16px;
+  font-size: 2.5rem;
+  text-shadow: grey 3px 3px 4px;
+}
+header p {
+  font-size: 1.5em;
   font-family: "Tektur", cursive;
+  color: #71B9F9;
+  letter-spacing: 7px;
+  margin-top: -10px;
+}
+header nav {
+  padding-top: 15px;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: None;
+}
+header nav ul li {
+  margin: 0px 60px;
+}
+header nav a {
+  text-decoration: none;
+  color: #3A2BE0;
+  font-size: 1.2em;
+  gap: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */
