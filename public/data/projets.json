@@ -1,0 +1,39 @@
+{
+    "projets":[
+        {
+            "image": "#",
+            "nom": "Progestec",
+            "type": "Programme Python",
+            "description": "Le Programme de Gestion de Tournois d'Échecs est une application simple et conviviale conçue pour aider les clubs d'échecs locaux à gérer efficacement leurs tournois. Contrairement aux solutions existantes, cette application fonctionne hors ligne, ce qui la rend idéale pour les tournois qui ne disposent pas d'une connexion Internet fiable.",
+            "lien": "https://github.com/Thomas-Savelli/association_echecs"
+        },
+        {
+            "image": "#",
+            "nom": "Site MATCAK",
+            "type": "Site Web",
+            "description": "Projet de site internet pour une association nommée MATCAK qui est axé sur l'apprentissage des sciences ",
+            "lien": "https://github.com/Thomas-Savelli/oc_projet"
+        },
+        {
+            "image": "#",
+            "nom": "Book Online ETL",
+            "type": "Programme Python",
+            "description": "Ce programme a pour objectif de faciliter la tâche de suivi des prix des livres d'occasion sur les sites web de concurrents de Books Online. Il s'agit d'un scraper développé en Python qui extrait les informations tarifaires d'autres librairies en ligne. Dans cette version bêta, le programme se concentre sur la récupération des prix chez un revendeur de livres en ligne nommé Books to Scrape, au moment de son exécution. L'application est développée pour être exécutable à la demande et ne surveille pas les prix en temps réel sur la durée. Il permettra à Books Online de gagner du temps et de rester compétitif sur le marché.",
+            "lien": "https://github.com/Thomas-Savelli/Books_Online_ETL"
+        },
+        {
+            "image": "#",
+            "nom": "JustStreamIt",
+            "type": "Site Web",
+            "description": "Site web réalisé pour l'association JustStreamIt dans le but d'offrir à leurs visiteurs un choix des meilleurs films actuels. Utilisation de leur API.",
+            "lien": "https://github.com/Thomas-Savelli/juststreamit"
+        },
+        {
+            "image": "#",
+            "nom": "AlgoInvest-Trade",
+            "type": "Programme Python",
+            "description": "Création de deux algorithmes pour une société qui cherche à optimiser ses stratégies d'investissement à l'aide d'algorithmes, afin de dégager davantage de bénéfices pour ses clients. un algorithme de force brut nommée : forcebrut.py et une algorithme dynamique nommée : optimized.py.",
+            "lien": "https://github.com/Thomas-Savelli/AlgoInvest-Trade_brutforce/tree/main"
+        }
+    ]
+}

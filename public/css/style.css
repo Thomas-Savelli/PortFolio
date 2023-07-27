@@ -49,11 +49,23 @@ header nav ul li a {
   white-space: nowrap; /* Empêcher le texte de se diviser sur plusieurs lignes */
 }
 
+main {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
 .bandeau {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+.bandeau h2 {
+  letter-spacing: 5px;
+}
+.bandeau h1 {
+  letter-spacing: 2px;
+  margin-top: -8%;
 }
 .bandeau__text {
   margin-top: 100px;
@@ -66,6 +78,10 @@ header nav ul li a {
 }
 .bandeau__text--code {
   font-family: "Handjet", cursive;
+}
+
+.competences {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

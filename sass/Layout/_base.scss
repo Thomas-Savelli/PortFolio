@@ -1,8 +1,20 @@
+main{
+    color: $color-basique-4;
+    font-family: $font-family-4;
+}
+
 .bandeau{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    h2{
+        letter-spacing: 5px;
+    }
+    h1{
+        letter-spacing: 2px;
+        margin-top: -8%;
+    }
     &__text{
         margin-top: 100px;
         font-size: 2rem;
@@ -15,4 +27,10 @@
             font-family: $font-family-code;
         }
     }
+}
+
+// sections projets
+
+.competences{
+    text-align: center;
 }
