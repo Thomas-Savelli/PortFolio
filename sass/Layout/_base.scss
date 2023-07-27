@@ -1,0 +1,18 @@
+.bandeau{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    &__text{
+        margin-top: 100px;
+        font-size: 2rem;
+        color: $color-basique-4;
+        font-family: $font-family-manuscrit;
+        &--green{
+            color:$color-basique-green;
+        }
+        &--code{
+            font-family: $font-family-code;
+        }
+    }
+}

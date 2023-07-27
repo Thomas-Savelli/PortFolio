@@ -1,15 +1,17 @@
 // Police d'écriture
-$fontfamily_slogan : 'Tektur', cursive;
-$fontfamily_titre : 'Gruppo', sans-serif;
+$font-family-1: 'Borel', cursive;
+$font-family-manuscrit: 'Caveat', cursive;
+$font-family-code: 'Handjet', cursive;
+$font-family-4: 'Oswald', sans-serif;
 
 // Couleurs du site 
-$color-titre: #A777EB;
-$color-secondaire : #71B9F9;
-$color-ternaire : #3A2BE0;
-$color-option : #DB1750;
-$color-fond : #5FEBE7;
+$color-basique : #1D1C22;
+$color-basique-2 : #2A292F;
+$color-basique-green : #8ED5BE;
+$color-basique-4 : white;
+$color-option-1: #A777EB;
+$color-option-2 : #DB1750;
 
-$image-header : url("../../public/images/Programming-amico.png");
 // Tailles des textes
 $size-titre : 2.5rem;
 // Tailles des images
