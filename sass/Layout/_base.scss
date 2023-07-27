@@ -8,6 +8,7 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin: 10% 0 10% 0;
     h2{
         letter-spacing: 5px;
     }
@@ -16,7 +17,6 @@ main{
         margin-top: -8%;
     }
     &__text{
-        margin-top: 100px;
         font-size: 2rem;
         color: $color-basique-4;
         font-family: $font-family-manuscrit;
@@ -30,7 +30,67 @@ main{
 }
 
 // sections projets
+.projets{
+    text-align: center;
+    height: 100%;
+    width: auto;
+    h2{
+    font-size: $size-soustitre ;
+    color: $color-basique-green;
+    }
+    &__soustitre{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 2%;
+        padding-left: 10%;
+        h2{
+            font-size: $size-soustitre ;
+            color: $color-basique-green;
+        }
+        img{
+            height: 80px;
+            width: auto;
+        }
+    }
+}
 
 .competences{
-    text-align: center;
+    text-align: end;
+    height: 100%;
+    width: auto;
+    &__soustitre{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 2%;
+        padding-right: 10%;
+        h2{
+            font-size: $size-soustitre ;
+            color: $color-basique-green;
+        }
+        img{
+            height: 80px;
+            width: auto;
+        }
+    }
+    &__gallery__logo{
+        display: flex;
+        flex-direction: row;
+        align-items: justify;
+        justify-content: center;
+        height: 60px;
+        width: auto;
+        gap: 50px;
+        -webkit-filter: grayscale(100%);
+	    filter: grayscale(50%);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+        &:hover{
+            -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+        }
+    }
 }

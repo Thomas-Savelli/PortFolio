@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="shortcut icon" href="./public/images/icone-portfolio.svg" type="image/x-icon">
         <link rel="stylesheet" href="./public/css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,8 +19,8 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">Mes Compétences</a></li>
-                        <li><a href="#"> Mes Projets</a></li>
+                        <li><a href="#mes-competences">Mes Compétences</a></li>
+                        <li><a href="#mes-projets"> Mes Projets</a></li>
                         <li><a href="https://github.com/Thomas-Savelli" target="_blank">Mon GitHub</a></li>
                         <li><a href="#">Contactez-moi</a></li>
                     </ul>
@@ -34,11 +35,27 @@
                     <img src="#" alt="photo de thomas">
                 </section>
                 <sections class="projets">
-                    <h2>Voici Les Projets que j'ai réalisés</h2>
+                    <div class="projets__soustitre">
+                        <img src="./public/images/iconeProjets.svg" alt="icone projets">
+                        <h2 id="mes-projets">Voici Les Projets que j'ai réalisés</h2>
+                    </div>
                     <div class="gallery__projets"></div>
                 </sections>
                 <section class="competences">
-                   <h2>Voici mes Compétences</h2>
+                    <div class="competences__soustitre">
+                        <img src="./public/images/iconeDiplome.svg" alt="icone diplome">
+                        <h2 id="mes-competences">MesCompetences = {}</h2>
+                    </div>
+                    <div class="galleryCompetences"></div>
+                    <div class="competences__gallery__logo">
+                        <img src="./public/images/logos/htmlLogo.svg" alt="logo Html">
+                        <img src="./public/images/logos/cssLogo.svg" alt="logo Css">
+                        <img src="./public/images/logos/javascriptLogo.svg" alt="logo Javascript">
+                        <img src="./public/images/logos/sassLogo.svg" alt="logo Sass">
+                        <img src="./public/images/logos/pythonLogo.svg" alt="logo Python">
+                        <img src="./public/images/logos/gitLogo.svg" alt="logo Git">
+                        <img src="./public/images/logos/githubLogo.svg" alt="logo GitHub">
+                    </div>
                    <div class="gallery__competences"></div>
                 </section>
             </main>

@@ -59,6 +59,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  margin: 10% 0 10% 0;
 }
 .bandeau h2 {
   letter-spacing: 5px;
@@ -68,7 +69,6 @@ main {
   margin-top: -8%;
 }
 .bandeau__text {
-  margin-top: 100px;
   font-size: 2rem;
   color: white;
   font-family: "Caveat", cursive;
@@ -80,8 +80,69 @@ main {
   font-family: "Handjet", cursive;
 }
 
-.competences {
+.projets {
   text-align: center;
+  height: 100%;
+  width: auto;
+}
+.projets h2 {
+  font-size: 2rem;
+  color: #8ED5BE;
+}
+.projets__soustitre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2%;
+  padding-left: 10%;
+}
+.projets__soustitre h2 {
+  font-size: 2rem;
+  color: #8ED5BE;
+}
+.projets__soustitre img {
+  height: 80px;
+  width: auto;
+}
+
+.competences {
+  text-align: end;
+  height: 100%;
+  width: auto;
+}
+.competences__soustitre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2%;
+  padding-right: 10%;
+}
+.competences__soustitre h2 {
+  font-size: 2rem;
+  color: #8ED5BE;
+}
+.competences__soustitre img {
+  height: 80px;
+  width: auto;
+}
+.competences__gallery__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: justify;
+  justify-content: center;
+  height: 60px;
+  width: auto;
+  gap: 50px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(50%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.competences__gallery__logo:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 /*# sourceMappingURL=style.css.map */
