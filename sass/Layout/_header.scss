@@ -2,7 +2,9 @@ header{
     margin-top: 2%;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     margin-left: 10px;
+    background: linear-gradient(#2A292F, #1D1C22);
     &__logo{
         height: 150px;
         width: auto;
@@ -11,8 +13,7 @@ header{
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
-        margin-left: 20%;
+        justify-content: space-around;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
