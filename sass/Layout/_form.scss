@@ -49,6 +49,9 @@
             margin-top: 6%;
             color: $color-basique-green;
             font-family: $font-family-code;
+            &:active{
+                color: $color-option-1;
+            }
           }
     }
 }

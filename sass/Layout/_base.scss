@@ -27,9 +27,14 @@ main{
             font-family: $font-family-code;
         }
     }
+    img{
+        height: 500px;
+        width: auto;
+        border-radius: 20% 2% 20% 2%;
+        box-shadow: $color-basique-2 30px 10px 5px;
+    }
 }
 
-// sections projets
 .projets{
     text-align: center;
     height: 100%;

@@ -35,4 +35,7 @@ header{
               padding-right: 1em;
               padding-left: 1em;
               white-space: nowrap; /* Empêcher le texte de se diviser sur plusieurs lignes */
+              &:active{
+                color: $color-option-1;
+              }
 }}}}}
