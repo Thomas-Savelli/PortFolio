@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Borel&family=Caveat:wght@500;600;700&family=Handjet:wght@500;600&family=Oswald:wght@400;500;600&family=Pacifico&display=swap" rel="stylesheet">
+        <script src="data.json"></script>
         <script src="./script/galleryProjet.js" defer></script>
         <title>Savelli Thomas</title>
     </head>
@@ -78,7 +79,23 @@
                             <input type="submit" value="ENVOYER" class="cta">
                         </div>
                     </form>
+
+                    <!-- Fenêtre modale -->
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h2 id="modal-title">Nom du Projet</h2>
+                            <p id="modal-description">Description du projet.</p>
+                            <a id="modal-github" href="#" target="_blank">Code sur GitHub</a>
+                            <img id="modal-image" src="" alt="Image du projet">
+                            <video id="modal-video" controls width="300">
+                                <source src="" type="video/mp4">
+                                Votre navigateur ne prend pas en charge la balise video.
+                            </video>
+                        </div>
+                    </div>
                 </section>
+
             </main>
             <footer>
                 <div class="informations-contact">
